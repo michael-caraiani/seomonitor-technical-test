@@ -18,7 +18,13 @@ These variables are necessary for the application to function properly. Without 
 
 ### 2. Start the Symfony Local Server
 
-If Symfony is already installed, you can start the local server by running:
+Install all packages, by running:
+
+```sh
+  composer install
+```
+
+If symfony CLI is already installed, you can start the local server by running:
 
 ```sh
   symfony server:start
